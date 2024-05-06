@@ -1,0 +1,47 @@
+{
+  "name": "intelli-chat-react",
+  "version": "1.4.11",
+  "description": "Customizable chat component for AI APIs",
+  "main": "./dist/intelliChat.js",
+  "module": "./dist/intelliChat.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "bot",
+    "chatbot",
+    "assistant",
+    "openai",
+    "chatgpt",
+    "azure",
+    "react",
+    "component"
+  ],
+  "author": "Ovidijus Parsiunas",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OvidijusParsiunas/intelli-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OvidijusParsiunas/intelli-chat/issues"
+  },
+  "homepage": "https://intellichat.dev",
+  "license": "MIT",
+  "dependencies": {
+    "@lit-labs/react": "^2.1.3",
+    "intelli-chat-dev": "9.0.147"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "typescript": "~5.3.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0 || >=17.0.0 || >=18.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
